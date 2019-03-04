@@ -1,0 +1,98 @@
+*{
+            margin:0;
+            padding:0;
+            word-wrap:break-word;
+            }
+            .header{
+                min-height:1vh;
+                background-color:coral;
+                
+                }
+            .text{
+                padding:2%;
+                font-size:1.2rem;
+                
+            }
+
+            h3
+            {
+            color:white;
+            padding-left:2%;
+            }    
+            .mybody{
+                background-color:white;
+                min-height: auto;                
+            }
+            .mybackbutton{
+                display: none;
+            }
+            .form{
+               display: none;
+                margin-left:1%;
+                }
+                input[type=number]::-webkit-inner-spin-button, 
+                input[type=number]::-webkit-outer-spin-button { 
+                -webkit-appearance: none; 
+                 margin: 0; 
+                }
+            .card{
+                background-color:white;
+                width: 350px;
+                box-shadow: 1px 1px 3px #888;
+                min-height: 150px;
+            }
+            .form-body{
+                padding:5%;
+                }
+            .button{
+                min-width:20%;
+                min-height:5%;
+                padding:2%;
+                color:black;
+                background-color: lightblue;
+                border:none;
+                font-size:1rem;
+                box-shadow: 1px 1px 3px #888;
+                }
+                .btn{
+                    min-width:20%;
+                min-height:5%;
+                padding:2%;
+                color:black;
+                background-color: coral;
+                border:none;
+                font-size:1rem;
+                box-shadow: 1px 1px 3px #888;
+                }
+            .showbutton,.back{
+                margin:3% 0 0 3%;
+               min-width:7%;
+                min-height:5%;
+                padding: 1%;
+                background-color: lightgreen;
+                color:black;
+                border:none;
+                font-size:1rem;
+                box-shadow: 1px 1px 3px #888;
+            }
+                .table{
+                    margin:5% ;
+                    width:90%
+                }
+                .databinding,.databinding2{
+                    display: none;
+                }
+                .text{
+                    color:black;
+
+                }
+                .table th{
+                    font-size: 1.2rem;
+                    margin-bottom: 5%;
+                }
+                .table tr td{
+                   
+                    text-align: center;
+                   font-size:1.2rem;
+
+                }

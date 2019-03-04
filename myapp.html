@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Myapp</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--css file-->
+     <link rel="stylesheet" type="text/css" href="myapp.css">
+</head>
+<body>
+	<main>
+        <!--header-->
+            <div class="header">
+                <span class="text">
+                    <h3>Myapp</h3>    
+                </span>
+            </div>
+            <!--body-->
+            <div class="mybody">
+                	
+                    <input type="button" value="add" name="add" id="showbutton" class="showbutton" onclick="show()" >
+
+                    <div id="mybackbutton" class="mybackbutton">
+                    		<input type="button" value="back" name="back" class="back" onclick="showbutton()">
+                    </div>
+                    <br>
+                    <br>
+		                    <form class="form card" id="form">
+
+		                    <div class="form-body">
+		<br>
+		                    <div class="inputform">
+		                        <label>Enter name:</label>
+		                        <input type="text" name="name" id="name"`>
+		                    </div>    
+		<br>
+		                    <div class="inputform">
+		                        <label>Enter phone:</label>
+		                        <input type="number" name="phone" id="phone"  >
+		                    </div>
+		<br>
+		                    <input type="button" value="submit" name="button" class="button" onclick="store()" >
+		                    </div>
+		                    
+		                </form> 
+                	 
+                <br>
+                <br>
+                    
+                    	
+
+                   		 <span class="databinding" id="databinding">
+                    		<h3 style="color:black;">Name: <text class='printbox' id='printbox' ></text></h3>
+                    		
+                    	</span>
+                    	<span class="databinding2" id="databinding2">
+                    		<h3 style="color:black;">Phone: <text class='printbox2' id='printbox2' ></text></h3>
+                    		
+                    	</span>
+                   
+                    <table  class="table" id="table">
+						  <tr>
+						    <th>Name</th>
+						    <th>Phone</th>
+						  </tr>
+                         
+					</table>    
+            </div>
+    </main>
+
+    <!--javscript file-->
+    <script type="text/javascript"src="myapp.js"></script>
+</body>
+</html>
